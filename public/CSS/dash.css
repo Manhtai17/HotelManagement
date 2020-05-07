@@ -1,0 +1,60 @@
+.main{
+	padding: 0;
+	margin: 0;
+}
+.wrapper{
+	float: left;
+	background-color: #1c2e4a;
+	width: 100%;
+	color: white;
+	padding: 0;
+
+}
+.logo{
+	
+	width: 100%;
+	display: block; 
+	padding:30px auto;
+	padding-left: 9%;
+	background-color: #152238;
+
+	border: 2px solid black;
+
+}
+.logo a{
+	text-decoration: none;
+	font-size: 2em;
+	color: #fff;
+	font-weight: 600;
+}
+.sidebar-wrapper{
+	width: 100%;
+}
+	.sidebar-wrapper ul li.nav-item{
+		width: 100%;
+		padding: 8px;
+		border: 2px solid black;
+	}
+	.sidebar-wrapper ul li.nav-item i{
+		float: left;
+		margin-right: 20px;
+		margin-left: 18px;
+	}
+
+
+@media screen and (max-width: 48rem) {
+	.wrapper{
+		width: 100%;
+
+	}
+	.sidebar-wrapper{
+		display: none;
+	}
+}
+
+
+.content{
+	width: 100%;
+	height: 500px;
+	background-color: gray;
+}

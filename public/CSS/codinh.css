@@ -1,0 +1,27 @@
+/*.codinh .logo{
+	left:8%;
+	height: 14vh;
+	z-index: 5;
+	width:138px;
+}
+.codinh .nav{
+	height: 100%;
+	line-height: :13vh;
+}
+	.codinh .nav ul li{
+		list-style: none;
+	}*/
+
+.codinh{
+	position: relative;
+	width: 100%;
+	height: 15vh;
+	background-color: red;
+	
+}
+
+/*.logo{
+	width: 50px;
+	height: 100vh;
+	background-color: black;
+}*/
